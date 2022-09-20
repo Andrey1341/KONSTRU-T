@@ -1,0 +1,100 @@
+@media screen and (max-width: 941px) {
+    .container{
+        width: 768px;
+    }
+    .hero-text{
+        margin-bottom: 160px;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .our-story-list{
+        margin-left: 2%;
+    }
+    .our-capabilities-wrapper{
+        margin-left: 2%;
+    }
+    .our-capabilities-title{
+        margin-right: 10%;
+    }
+    .project-list{
+        margin-left: 2%;
+    }
+    .footer{
+        margin-left: 2%;
+    }
+    .footer-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-desc{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container{
+        width: 500px;
+    }
+    .header-list{
+        display: none;
+    }
+    .burger-menu{
+        display: block;
+    }
+    .burger-menu_item{
+        margin-bottom: 3px;
+        margin-right: 10px;
+    }
+    .burger-menu-link{
+        display: block;
+        width: 35px;
+        height: 5px;
+        background: #000;
+        border-radius: 5px;
+    }
+    .our-story-list{
+        display: block;
+    }
+    .our-story-text{
+        text-align: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .our-story-desc{
+        text-align: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    .our-capabilities-title{
+        margin-right: 5%;
+    }
+    .btn-all_services{
+        margin-right: 5%;
+    }
+    .project-list{
+        display: block;
+    }
+    .project-item{
+        display: flex;
+        height: 180px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    .project-text{
+        padding-top: 30px;
+    }
+    .form-title{
+        margin-left: 2%;
+    }
+    .btn-form{
+        margin-right: 5%;
+    }
+    .footer-footer{
+        margin-top: 50px;
+    }
+}
