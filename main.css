@@ -81,7 +81,7 @@ p {
 .header-logo-img{
     width: 80px;
 }
-.header-list{
+#header-list{
     display: flex;
     justify-content: flex-end;
 }
@@ -93,9 +93,6 @@ p {
 }
 .header-item-active{
     color: #00A4E5;
-}
-.burger-menu{
-    display: none;
 }
 .hero-hr{
     background: #E6E6E6;

@@ -25,34 +25,16 @@
                     <div class="header-logo">
                         <img src="./img/company-logo-black.png" class="header-logo-img" alt="">
                     </div>
-                    <ul class="header-list">
-                        <li class="header-item">
-                            <a href="#">HOME</a>
-                        </li>
-                        <li class="header-item header-item-active">
-                            <a href="#">ABOUT</a>
-                        </li>
-                        <li class="header-item">
-                            <a href="#">SERVICES</a>
-                        </li>
-                        <li class="header-item">
-                            <a href="#">WORK</a>
-                        </li>
-                        <li class="header-item">
-                            <a href="#">CONTACT</a>
-                        </li>
-                    </ul>
-                    <ul class="burger-menu">
-                        <li class="burger-menu_item">
-                            <a href="#" class="burger-menu-link"></a>
-                        </li>
-                        <li class="burger-menu_item">
-                            <a href="#" class="burger-menu-link"></a>
-                        </li>
-                        <li class="burger-menu_item">
-                            <a href="#" class="burger-menu-link"></a>
-                        </li>
-                    </ul>
+                    <div id="header-list">
+                        <a href="#home" class="header-item">HOME</a>
+                        <a href="#about" class="header-item header-item-active">ABOUT</a>
+                        <a href="#services" class="header-item">SERVICES</a>
+                        <a href="#work" class="header-item">WORK</a>
+                        <a href="#contact" class="header-item">CONTACT</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
                 </header>
             </div>
             <hr class="hero-hr">
@@ -259,5 +241,15 @@
             </div>
         </footer>
     </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("header-list");
+            if (x.style.display === "block") {
+            x.style.display = "none";
+            } else {
+            x.style.display = "block";
+            }
+        }
+    </script>
 </body>
 </html>
