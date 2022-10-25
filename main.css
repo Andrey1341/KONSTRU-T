@@ -94,6 +94,9 @@ p {
 .header-item-active{
     color: #00A4E5;
 }
+.icon{
+    display: none;
+}
 .hero-hr{
     background: #E6E6E6;
 }
